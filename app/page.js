@@ -31,7 +31,7 @@ export default function Home() {
         <div className="container hero-grid">
           <div className="hero-content">
             <p className="eyebrow">HELLO, I'M ELEINJON ♡</p>
-            <h1>Creating with <span>curiosity &amp; creativity.</span></h1>
+            <h1>ELEINJON D. <span>PUWOC</span></h1>
             <p className="lead">I’m an IT student who enjoys learning programming, web development, networking, and building simple digital solutions.</p>
             <div className="actions">
               <a className="btn primary" href="#projects">View My Projects</a>
