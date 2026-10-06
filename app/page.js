@@ -15,6 +15,7 @@ export default function Home() {
           <a href="#home">Home</a>
           <a href="#education">Education</a>
           <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -77,6 +78,21 @@ export default function Home() {
               <p>{p.text}</p>
               <div className="tags">{p.tags.map(t => <span key={t}>{t}</span>)}</div>
             </article>)}
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" className="section alt">
+        <div className="container">
+          <p className="eyebrow">SKILLS</p>
+          <h2>Skills I’m Learning</h2>
+          <div className="skills-grid">
+            <article className="skill-card"><span>01</span><h3>HTML &amp; CSS</h3><p>Basic webpage structure and styling.</p></article>
+            <article className="skill-card"><span>02</span><h3>JavaScript</h3><p>Basic programming and simple interactions.</p></article>
+            <article className="skill-card"><span>03</span><h3>Next.js</h3><p>Basic frontend development with Next.js.</p></article>
+            <article className="skill-card"><span>04</span><h3>SQL</h3><p>Basic database concepts and queries.</p></article>
+            <article className="skill-card"><span>05</span><h3>Networking</h3><p>Basic VLAN, IP addressing, and Packet Tracer activities.</p></article>
+            <article className="skill-card"><span>06</span><h3>GitHub</h3><p>Basic repository and project management.</p></article>
           </div>
         </div>
       </section>
