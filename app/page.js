@@ -30,7 +30,6 @@ export default function Home() {
         <div className="sparkle sparkle-two">♡</div>
         <div className="container hero-grid">
           <div className="hero-content">
-            <p className="eyebrow">HELLO, I'M ELEINJON ♡</p>
             <h1>ELEINJON D. <span>PUWOC</span></h1>
             <p className="lead">I’m an IT student who enjoys learning programming, web development, networking, and building simple digital solutions.</p>
             <div className="actions">
