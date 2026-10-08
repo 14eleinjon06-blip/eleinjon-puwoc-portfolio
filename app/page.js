@@ -115,7 +115,11 @@ export default function Home() {
           <p className="eyebrow">CONTACT</p>
           <h2>Let’s create something nice.</h2>
           <p>If you want to know more about my projects or work, feel free to reach out.</p>
-          <a className="btn primary" href="mailto:eleinjon.puwoc@gmail.com">Send Me an Email ♡</a>
+          <div className="contact-links">
+            <a className="btn primary" href="mailto:eleinjon.puwoc@gmail.com">Send Me an Email ♡</a>
+            <a className="btn secondary" href="https://www.facebook.com/elle0802" target="_blank" rel="noreferrer">Facebook</a>
+            <a className="btn secondary" href="tel:09678812695">09678812695</a>
+          </div>
         </div>
       </section>
     </main>
