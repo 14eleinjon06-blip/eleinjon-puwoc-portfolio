@@ -30,10 +30,7 @@ export default function Home() {
         <div className="sparkle sparkle-two">♡</div>
         <div className="container hero-grid">
           <div className="hero-content">
-            <h1 className="hero-name" aria-label="ELEINJON D. PUWOC">
-              <span className="name-line name-line-one"><span>E</span><span>L</span><span>E</span><span>I</span><span>N</span><span>J</span><span>O</span><span>N</span><span>&nbsp;</span><span>D</span><span>.</span></span>
-              <span className="name-line name-line-two name-accent"><span>P</span><span>U</span><span>W</span><span>O</span><span>C</span></span>
-            </h1>
+            <h1 className="hero-name">ELEINJON D. PUWOC</h1>
             <p className="lead">I’m an IT student who enjoys learning programming, web development, networking, and building simple digital solutions.</p>
             <div className="actions">
               <a className="btn primary" href="#projects">View My Projects</a>
